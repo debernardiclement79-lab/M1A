@@ -1,0 +1,6 @@
+{
+  "name": "m1a-inference", "version": "0.1.0", "private": true,
+  "type": "module", "main": "desktop/main.cjs",
+  "scripts": {"start":"node server.mjs", "test":"node --test", "desktop":"electron ."},
+  "devDependencies": {"electron":"^38.0.0"}
+}
